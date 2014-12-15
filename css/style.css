@@ -47,14 +47,18 @@ height: 120px;
 	font-size: 3em;
 	font-weight: bold;
 }
-.hr-break{
-	margin: 25px auto 30px;
-padding: 0;
-max-width: 350px;
-border: 0;
-border-top: solid 5px;
-text-align: center;
-color: white;
+.hr-break,
+.hr-projects{
+  margin: 25px auto 30px;
+  padding: 0;
+  max-width: 350px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  color: white;
+}
+.hr-projects{
+  color: #18bc9c;
 }
 .about p{
 	color: white;
@@ -91,11 +95,14 @@ color: white;
 background-color: #2c3e50;
 }
 .footer-social h2{
-  padding-left: 5%;
+  padding-top: 2%;
+  padding-right:6%;
   color: #18bc9c;
+  font-size: 2.5em;
 }
 .social{
-padding: 6%;}
+padding-left: 6%;
+padding:5% 0;}
 .social li{
 display: inline;
 padding: 10px 5px;
@@ -109,7 +116,7 @@ cursor: pointer;
 
 
 /* Extra Small */
-@media(max-width:767px){
+@media(max-width:996px){
   .logo{
    float:none;    
   }  
@@ -119,13 +126,10 @@ cursor: pointer;
   }
 }
 
-/* Small */
-@media(min-width:768px) and (max-width:991px){
 
-}
 
 /* Medium */
-@media(min-width:992px) and (max-width:1199px){}
+@media(min-width:997px) and (max-width:1199px){}
 
 /* Large */
 @media(min-width:1200px){}
